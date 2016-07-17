@@ -1,4 +1,4 @@
-dyn_routing
+dynamic routing
 ===========
 
 4 implementations of dynamic {bundle}/{controller}/{action} routing
