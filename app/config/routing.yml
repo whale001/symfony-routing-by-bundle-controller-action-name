@@ -1,0 +1,15 @@
+option_1:
+    pattern:  /{bundle}/{controller}/{action}
+    defaults: { _controller: AppBundle:Base:dispatcher }
+    requirements:
+        request: ".*"
+        bundle: app|option1 #to demonstrate other option
+
+option_2:
+    resource: .
+    type: option2
+
+option_3:
+    resource: '@Option3Bundle/Controller/'
+    type:     annotation
+    prefix:   /option3

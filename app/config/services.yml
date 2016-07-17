@@ -1,0 +1,11 @@
+services:
+    option2_bundle.route_loader:
+        class: Option2Bundle\Router\RoutesLoader
+        arguments: ['@service_container']
+        tags:
+            - { name: routing.loader }
+    kernel.subscriber.router_listener:
+        class: Option4Bundle\EventListener\DynamicRouterListener
+        arguments: ['@service_container']
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, priority: 33 }
