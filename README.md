@@ -11,7 +11,7 @@ example urls: /app/default/index, /app/lucky/number, /app/unlucky/number, /optio
 * Option1Bundle
 * routing.yml:[1-6]
 
-##Router loader
+##Route loader
 
 example urls: /option2/lucky/number, /option2/unlucky/number, /option2case2/lucky/number, /option2case2/unlucky/number
 
