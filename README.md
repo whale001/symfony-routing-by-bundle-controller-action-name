@@ -1,4 +1,4 @@
-dynamic routing
+symfony dynamic routing
 ===========
 
 4 implementations of dynamic {bundle}/{controller}/{action} routing
