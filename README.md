@@ -3,7 +3,7 @@ dyn_routing
 
 4 implementations of dynamic {bundle}/{controller}/{action} routing
 
-1. Dispatcher action
+##Dispatcher action
 
 example urls: /app/default/index, /app/lucky/number, /app/unlucky/number, /option1/lucky/number, /option1/unlucky/number
 
@@ -11,7 +11,7 @@ example urls: /app/default/index, /app/lucky/number, /app/unlucky/number, /optio
 * Option1Bundle
 * routing.yml:[1-6]
 
-2. Router loader
+##Router loader
 
 example urls: /option2/lucky/number, /option2/unlucky/number, /option2case2/lucky/number, /option2case2/unlucky/number
 
@@ -20,13 +20,14 @@ example urls: /option2/lucky/number, /option2/unlucky/number, /option2case2/luck
  * routing.yml:[8-10]
  * services.yml:[1-6]
  
-3. Prefix with annotations
+##Prefix with annotations
 
 example urls: /option3/lucky/number, /option3/unlucky/number
 
  * Option3Bundle
  * routing.yml:[12-15]
-4. RouterListener
+ * 
+##RouterListener
 
 example urls: /option4/lucky/number, /option4/unlucky/number
 
